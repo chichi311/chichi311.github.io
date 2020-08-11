@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<h1>Ideal Travel Plan</h1>
+<section class="days">
+    <label for="days">How Many Days is Your Ideal Trip?</label>
+     <br>
+    <input type="number" name="days" id="days">
+</section>
+    <br />
+
+<section class="countries">
+    <label for="countries">How Many Countries in One Trip?</label>
+    <br>
+    <input type="number" name="countries" id="countries">
+</section>
+    <br />
+
+    <section class="attractions">
+        <span>What is Your Favourite Part of Traveling?</span>/
+        <br>
+        <label for="food">Food</label>
+        <input id="food" name="attractions" type="checkbox" value="food">
+        <br />
+        <label for="architecture">Architecture</label>
+        <input id="architecture" name="attractions" type="checkbox" value="architecture">
+        <br />
+        <label for="people">Meeting New People</label>
+        <input id="people" name="attractions" type="checkbox" value="people">
+    
+    
+    
+    </section>
+    <br />
+    <section>
+        <span>Are You Interested in Traveling in the Other Parts of the World?</span>
+        <br />
+        <input type="radio" name="other" id="yes" value="yes" />
+        <label for="yes">Yes</label>
+        <br />
+        <input type="radio" name="other" id="no" value="no" />
+        <label for="no">No</label>
+    </section>
+    <br />
+    <section class="other-areas">
+        <label for="areas">Which Areas of the World?</label>
+        <select name="areas" id="areas">
+            <option value="asia">Asia</option>
+            <option value="north-america">North America</option>
+            <option value="south-america">South America</option>
+            <option value="africa">Africa</option>
+        </select>
+        
+    </section>
+</body>
+</html>
